@@ -1,1 +1,68 @@
 @import "tailwindcss";
+
+:root {
+  /* Modern Weather App Palette */
+  --color-dark-base: #0A1628;
+  --color-card-bg: #132F4C;
+  --color-accent-primary: #30B0C0;
+  --color-accent-warm: #FFB84D;
+  --color-text-light: #ECF0F3;
+  --color-text-muted: #5A8FA0;
+  --color-border: #1F4659;
+}
+
+* {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-dark-base);
+}
+
+.bg-dark-base {
+  background-color: var(--color-dark-base);
+}
+
+.bg-card {
+  background-color: var(--color-card-bg);
+}
+
+.text-light {
+  color: var(--color-text-light);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.border-custom {
+  border-color: var(--color-border);
+}
+
+.card-bg {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+}
+
+.accent-primary {
+  color: var(--color-accent-primary);
+}
+
+.bg-accent-primary {
+  background-color: var(--color-accent-primary);
+}
+
+.btn-accent {
+  background-color: var(--color-accent-primary);
+  color: var(--color-dark-base);
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: var(--color-accent-warm);
+  transform: translateY(-2px);
+}
+
+.text-accent-warm {
+  color: var(--color-accent-warm);
+}
