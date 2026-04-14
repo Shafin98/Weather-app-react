@@ -38,7 +38,15 @@ This is my first React project, built during my course at Ostad. The application
 
 ## 🌐 Live Demo
 
-👉 https://shafins-weather-app.netlify.app/
+👉 https://shafins-weather-app-react.onrender.com/
+
+---
+
+## 📸 Screenshot
+
+<p align="center">
+  <img src="./assets/weather_app.png" alt="Weather App Screenshot" width="600"/>
+</p>
 
 ---
 
@@ -47,3 +55,9 @@ This is my first React project, built during my course at Ostad. The application
 1. Clone the repository:
 ```bash
 git clone https://github.com/Shafin98/your-repo-name.git
+
+cd your-repo-name
+
+npm install
+
+npm run dev
