@@ -44,8 +44,10 @@ This is my first React project, built during my course at Ostad. The application
 
 ## 📸 Screenshot
 
+## 📸 Screenshot
+
 <p align="center">
-  <img src="./assets/weather_app.png" alt="Weather App Screenshot" width="600"/>
+  <img src="./src/assets/weather_app.png" alt="Weather App Screenshot" width="700"/>
 </p>
 
 ---
