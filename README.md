@@ -1,18 +1,49 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React project, built during my course at Ostad. The application fetches real-time weather data from a third-party API and displays it in a clean and responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🌍 Search weather by city name
+- 🌡️ Real-time temperature display
+- ☁️ Weather condition information
+- ⚡ Fast API data fetching using Axios
+- 📱 Responsive UI with Tailwind CSS
+- ❌ Error handling for invalid city or network issues
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript (ES6+)
+- Axios
+- Tailwind CSS
+- REST API (Weather API)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 What I Learned
+
+- Understanding and using **React Hooks** (`useState`)
+- Managing **component state**
+- Making **API calls using Axios**
+- Handling **asynchronous operations**
+- Implementing **error handling**
+- Building responsive UI using **Tailwind CSS**
+
+---
+
+## 🌐 Live Demo
+
+👉 https://shafins-weather-app.netlify.app/
+
+---
+
+## 💻 Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Shafin98/your-repo-name.git
