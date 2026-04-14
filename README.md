@@ -51,8 +51,6 @@ This is my first React project, built during my course at Ostad. The application
 ---
 
 ## 💻 Installation & Setup
-
-1. Clone the repository:
 ```bash
 git clone https://github.com/Shafin98/your-repo-name.git
 
